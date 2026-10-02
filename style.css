@@ -247,11 +247,6 @@ body {
     z-index: 1;
 }
 
-.btn-ig span {
-    position: relative;
-    z-index: 1;
-}
-
 /* ===== Section Header Umum ===== */
 .section-header {
     text-align: center;
@@ -344,7 +339,6 @@ body {
     transform: translateY(0);
 }
 
-/* Garis emas atas */
 .edu-card::before {
     content: '';
     position: absolute;
@@ -425,15 +419,6 @@ body {
     background: linear-gradient(135deg, var(--gold), var(--gold-light));
     color: var(--black);
     box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4);
-}
-
-/* Hapus warna khusus per kartu — semua emas */
-.edu-card[data-color="1"] .card-icon,
-.edu-card[data-color="2"] .card-icon,
-.edu-card[data-color="3"] .card-icon,
-.edu-card[data-color="4"] .card-icon {
-    border-color: var(--gold);
-    color: var(--gold);
 }
 
 .card-body {
